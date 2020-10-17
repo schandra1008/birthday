@@ -2,8 +2,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="html, website maker, website, web services">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Saurabh Chandra">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -13,32 +11,36 @@
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="bootstrap/js/jquery.js" type="text/javascript"></script>
     <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="bootstrap/js/materialize.min.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- font family-->
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
     <title>Happy Birthday Saurabh</title>
+    <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
 </head>
 
-<body style="background: #F00000;
-background: -webkit-linear-gradient(to right, #DC281E, #F00000);
-background: linear-gradient(to right, #DC281E, #F00000);
-">
+<body>
     <div class="container-fluid">
+        <video autoplay muted loop id="myVideo">
+            <source src="Balloons - 33584.mp4" type="video/mp4">
+          </video>
         <div class="row">
-            <div class="col-sm-12">
-                <div class="background-cover img-responsive">
-                    <div id="about">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">
-                                    <div class="container py-5">
-                                        <div class="output" id="output">
-                                            <h1 class="cursor"></h1>
-                                            <p style="font-size: 25px;"></p>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="container py-5">
+                            <div class="output" id="output">
+                                <h1 class="cursor"></h1>
+                                <p style="font-size: 35px; font-weight: 900;"></p>
                             </div>
                         </div>
                     </div>
