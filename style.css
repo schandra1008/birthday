@@ -231,13 +231,6 @@ p.cursor::after {
     transition-delay: 56ms;
 }
 
-.background-cover {
-    background-image: url('victorian.png');
-    background-size: cover;
-    width: 100%;
-    height: 900px;
-}
-
 .bannar{
     height:90px;
 }
