@@ -11,71 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<style>
-        #more {
-            display: none;
-        }
-    </style>
 </head>
 
-<body onload="myFunction()" style="margin:0; background-color: rgb(39, 2, 2);">
+<body onload="myFunction()" style="margin:0; background-color: rgb(8, 8, 8);">
     <div id="loader"></div>
-    <audio class="song" controls autoplay style="display: none;">
-        <source src="hbd.mp3"></source>
-	   Your browser isn't invited for super fun audio time.
-    </audio>
     <div style="display:none;" id="myDiv" class="animate-bottom">
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="Balloon-Border.png" width="100%" class="balloon-border">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="banner.png" class="bannar">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="tenor.gif">
-		    <div>
-		    <a href="#" onclick="myFunction1()" id="myBtn" style="text-decoration: none; color: green; font-size: 20px; margin-top:5px;"><p style="text-align:left;">Why this...</p></a>
-                <p style="color: white;"><span id="dots"></span><span id="more"> kyukii</span></p>
-		    </div>
-            </div>
-        </div>
-
-        <a href="wish.html">
-            <div class="container1">
-                <h2 style="text-decoration: none; color: white;">Touch Me</h2>
-                <div class="dot one"><br></div>
-                <div class="dot two"><br></div>
-                <div class="dot three"><br></div>
-                <div class="dot four"><br></div>
-                <div class="dot five"><br></div>
-                <div class="dot six"><br></div>
-                <div class="dot seven"><br></div>
-                <div class="dot eight"><br></div>
-                <div class="dot nine"><br></div>
-                <div class="dot ten"><br></div>
-                <div class="dot eleven"><br></div>
-                <div class="dot twelve"><br></div>
-                <div class="dot thirteen"><br></div>
-                <div class="dot fourteen"><br></div>
-                <div class="dot fifteen"><br></div>
-                <div class="dot sixteen"><br></div>
-                <div class="dot seventeen"><br></div>
-                <div class="dot eighteen"><br></div>
-                <div class="dot nineteen"><br></div>
-                <div class="dot twenty"><br></div>
-            </div>
+        <a href="2.html">
+            <button type="button" class="btn btn-primary" style="margin-top: 700px;">Turn on Lights</button>
         </a>
-
     </div>
-
 </body>
-
-
 <script>
     var myVar;
 
@@ -88,24 +33,5 @@
         document.getElementById("myDiv").style.display = "block";
     }
 </script>
-
-<script>
-    function myFunction1() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
-
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-        } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Why this...";
-            moreText.style.display = "inline";
-        }
-    }
-</script>
-
 
 </html>
